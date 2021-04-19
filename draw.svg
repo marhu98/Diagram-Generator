@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="120.0" height="120.0" viewBox="0 -110.0 120.0 120.0">
+<defs>
+</defs>
+<path d="M100.0,0 L100.0,-100" stroke="black" stroke-width="2" />
+<path d="M66.66666666666666,0 L66.66666666666666,-100" stroke="black" stroke-width="2" />
+<path d="M33.33333333333333,0 L33.33333333333333,-100" stroke="black" stroke-width="2" />
+<circle cx="100.0" cy="-0.0" r="5" fill="blue" stroke-width="2" stroke="black" />
+<circle cx="100.0" cy="-50.0" r="5" fill="blue" stroke-width="2" stroke="black" />
+<circle cx="66.66666666666666" cy="-0.0" r="5" fill="blue" stroke-width="2" stroke="black" />
+<circle cx="66.66666666666666" cy="-50.0" r="5" fill="blue" stroke-width="2" stroke="black" />
+<circle cx="33.33333333333333" cy="-0.0" r="5" fill="blue" stroke-width="2" stroke="black" />
+<circle cx="33.33333333333333" cy="-33.333333333333336" r="5" fill="blue" stroke-width="2" stroke="black" />
+<circle cx="33.33333333333333" cy="-66.66666666666667" r="5" fill="blue" stroke-width="2" stroke="black" />
+<path d="M66.66666666666666,-0.0 L100.0,-0.0" stroke="grey" stroke-width="1" />
+<path d="M66.66666666666666,-0.0 L100.0,-50.0" stroke="grey" stroke-width="1" />
+<text x="83.33333333333333" y="-35.0" font-size="12" text-anchor="start" dy="0.4em">-1</text>
+<path d="M33.33333333333333,-33.333333333333336 L66.66666666666666,-50.0" stroke="grey" stroke-width="1" />
+</svg>
