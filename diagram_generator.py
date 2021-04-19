@@ -23,5 +23,5 @@ d.saveSvg("images/draw.svg")
 
 f = Filtration()
 f.add_level(0,a)
-f.add_level(1,b,update=True)
+f.add_level(1,b)
 f.draw().saveSvg("images/drawFiltered.svg")

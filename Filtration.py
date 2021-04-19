@@ -23,17 +23,19 @@ class Filtration:
         self.max_dim=max(self.max_dim,max_dim)
 
         if update:
+            self.update()
 
-            for level,component in self.subs.items():
-                print(component)
-                dims = component.dims
-                keys = dims.keys()
-                for i in range(self.max_dim+1):
-                    if i not in keys:
-                        comp.add(i,0)
-
+    def update(self):
+        for level,component in self.subs.items():
+            print(component)
+            dims = component.dims
+            keys = dims.keys()
+            for i in range(self.max_dim+1):
+                if i not in keys:
+                    component.add(i,0)
 
     def draw(self):
+        self.update()
         count = len(self.levels)
         w = count*100+20
         h = count*100+20
