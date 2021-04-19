@@ -1,3 +1,4 @@
+import drawSvg as draw
 class Filtration:
     def __init__(self,height=100,width=100):
         self.subs = {}
